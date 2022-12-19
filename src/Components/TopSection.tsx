@@ -12,13 +12,13 @@ const TopSection = () => {
   return (
     <Box className={Styles.main} px={[0, 2, 8, 16]}>
       <Navbar />
-      <Flex alignItems={"center"} justifyContent={"space-evenly"}>
+      <Flex alignItems={"center"} justifyContent={"space-between"}>
         <VStack gap={5}>
           <Twittersvg />
           <Instagramsvg />
           <Facebooksvg />
         </VStack>
-        <Box textAlign={"center"} w={"80%"}>
+        <Box textAlign={"center"} w={"90%"}>
           <Heading className={Styles.heading}>Ramaera Industries</Heading>
           <Text color={"whiteAlpha.900"} className={Styles.para}>
             An incredible multi-industrial approach oriented towards financial

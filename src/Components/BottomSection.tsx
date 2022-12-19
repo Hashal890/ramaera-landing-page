@@ -2,6 +2,7 @@ import { Box } from "@chakra-ui/react";
 import React from "react";
 import Expansion from "./Expansion";
 import Hotel from "./Hotel";
+import Packing from "./Packing";
 import Technology from "./Technology";
 
 const BottomSection = () => {
@@ -10,6 +11,7 @@ const BottomSection = () => {
       <Expansion />
       <Technology />
       <Hotel />
+      <Packing />
     </Box>
   );
 };

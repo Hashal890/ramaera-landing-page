@@ -1,0 +1,26 @@
+.inner {
+  box-sizing: border-box;
+  background: rgba(255, 251, 253, 0.09);
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),
+    inset 0px 4px 48px 5px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+}
+
+.navtags {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.navtags:hover {
+  border-bottom: 3px solid #02f84c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

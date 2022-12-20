@@ -1,8 +1,13 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import RightPolygon from "../Assets/RightPolygon";
 
 const Footer = () => {
-  return <Box></Box>;
+  return (
+    <Flex flexDir={"row-reverse"} pt={10}>
+      <RightPolygon />
+    </Flex>
+  );
 };
 
 export default Footer;

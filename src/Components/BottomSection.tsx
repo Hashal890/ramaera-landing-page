@@ -4,6 +4,7 @@ import Agri from "./Agri";
 import Ecommerce from "./Ecommerce";
 import Expansion from "./Expansion";
 import Fmcg from "./Fmcg";
+import Footer from "./Footer";
 import Hotel from "./Hotel";
 import Packing from "./Packing";
 import Technology from "./Technology";
@@ -18,6 +19,7 @@ const BottomSection = () => {
       <Fmcg />
       <Agri />
       <Ecommerce />
+      <Footer />
     </Box>
   );
 };

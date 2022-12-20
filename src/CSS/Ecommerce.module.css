@@ -1,0 +1,6 @@
+.heading {
+  background: linear-gradient(90deg, #b4dffd 3.93%, #efb79b 36.17%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
